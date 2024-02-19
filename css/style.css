@@ -6,9 +6,9 @@ body {
     color: rgb(223, 59, 18);
     background-color: rgba(86, 226, 43, 0.205);
 }
-/* #cover {
-    
-} */
+#cover {
+    height: auto;
+}
 /* .activate img {
     position: absolute;
     top: 0;
