@@ -1,0 +1,248 @@
+/* Main */
+body {
+    text-align: center;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    color: rgb(223, 59, 18);
+    background-color: rgba(86, 226, 43, 0.205);
+}
+/* #cover {
+    
+} */
+/* .activate img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 85px;
+    height: auto;
+}
+.activate:hover {
+    pointer-events: none;
+} */
+#banner {
+    border: 0px solid transparent;
+    /* border-image: url('images/banner.png'); */
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    object-fit: fill;
+} 
+img {
+    width: 360px;
+    height: 220px;
+    display: block;
+    margin: 66px;
+}
+
+a, div {
+    
+    color: rgb(216, 79, 16);
+    text-size-adjust: 59px;
+    vertical-align: middle;
+    margin: 52px;
+    text-decoration: none;
+    font-size: large;
+    display: inline-block;
+}
+p {
+    text-align: left;
+    margin: 0px 65px;
+}
+header {
+    color: rgb(187, 54, 54);
+    height: 35px;
+    font-weight: 900;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header a {
+    display: flex;
+    height: 35px;
+    width: 120px;
+    text-transform: uppercase;
+    color: black;   
+}
+.header a:hover {
+    background-color: rgb(126, 33, 16);
+    color: antiquewhite;
+    /* padding: 15px 40px; */
+    box-shadow: 0 0 5px #d1d1ab;
+    text-shadow: 0 0 5px #1a190b;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+    letter-spacing: 4px;
+    
+}
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header-right {
+        float: none;
+    }    
+}
+.header a:active {
+    background-color: bisque;
+    color: white;
+}
+h2 {
+    color: antiquewhite;
+    
+}
+
+ul {
+    text-align: left;
+    color: antiquewhite;
+}
+
+ol {
+    text-align: left;
+    margin: 0px 65px;
+    color: antiquewhite;
+}
+/* Survey */
+
+.survey {
+    text-align: center;
+}
+.p1 {
+    font-size: large;
+    text-align: center;
+    height: 70px;
+}
+
+.home-button {
+    color: rgba(196, 6, 6, 0.61);
+    height: 35px;
+    font-weight: 900;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 77px;
+    /* position: absolute; */
+    vertical-align: top;
+    float: left;
+}
+
+
+.home-button:hover {
+    background-color: rgb(126, 33, 16);
+    color: antiquewhite;
+    padding: 15px; 
+    box-shadow: 0 0 5px #d1d1ab;
+    text-shadow: 0 0 5px #1a190b;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+    letter-spacing: 4px;
+}
+
+input {
+    display: flex;
+    
+}
+
+.input {
+    width: 390px;
+    height: 30px;
+    
+}
+label {
+    font-size: x-large;
+    height: 20px;
+    display: inline-flex; 
+    float: left;
+}
+
+select {
+    height: 30px;
+    width: 250px;
+}
+
+input[type="submit"] {
+    width: 300px;
+    height: 50px;
+    padding: 10px 20px 10px 125px;
+    background-color: rgb(93, 172, 103);
+    font-size: large;
+    font-weight: bold;
+    
+}
+
+input[type="text"] {
+    margin: 3px 0px 15px 0px;
+    
+}
+input[type="email"] {
+    margin: 3px 0px 15px 0px;
+}
+input[type="number"] {
+    margin: 3px 0px 15px 0px;
+}
+
+.p2 {
+    margin: 15px 0px 3px 0px;
+}
+
+.p3 {
+    margin: 15px 0px 3px 0px;
+    border: 40px;
+}
+
+.p4 {
+    margin: 15px 0px 3px 0px;
+    height: 30px;
+}
+
+textarea {
+    width: 350px;
+    height: 150px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+
+  }
+
+  .radio {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+.checkbox {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+/* Icons */
+
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-media-icons img {
+    
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+  }
+
+  /* Projects */
+  /* h1 {
+    padding: 29px 190px;
+  } */
+  .projects {
+    padding: 85px 190px;
+    text-align: center;
+  }
+  .navigate {
+    padding: 50px 190px;
+    font-size: xx-large;
+    font: bolder;
+  }
+  
+  /* Contact */
