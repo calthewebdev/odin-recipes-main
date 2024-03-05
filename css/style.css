@@ -6,8 +6,15 @@ body {
     color: rgb(223, 59, 18);
     background-color: rgba(86, 226, 43, 0.205);
 }
+#welcome {
+    text-align: center;
+    font-size: x-large;
+    
+}
 #cover {
     height: auto;
+    padding: 1px 270px;
+    margin: 20px 54px;
 }
 /* .activate img {
     position: absolute;
@@ -28,8 +35,8 @@ body {
     object-fit: fill;
 } 
 img {
-    width: 360px;
-    height: 220px;
+    width: 100%;
+    height: auto;
     display: block;
     margin: 66px;
 }
@@ -105,8 +112,9 @@ ol {
 }
 /* Survey */
 
-.survey {
-    text-align: center;
+#title {
+     margin: 10px 140px 0px 140px; 
+    padding: 20px 120px 0px 120px;
 }
 .p1 {
     font-size: large;
@@ -116,7 +124,7 @@ ol {
 
 .home-button {
     color: rgba(196, 6, 6, 0.61);
-    height: 35px;
+    height: 45px;
     font-weight: 900;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     width: 77px;
@@ -137,7 +145,10 @@ ol {
     z-index: -1;
     letter-spacing: 4px;
 }
-
+#image {
+    padding: 1px 270px;
+    margin: 20px 54px;
+}
 input {
     display: flex;
     
@@ -154,12 +165,28 @@ label {
     display: inline-flex; 
     float: left;
 }
+.label1 {
+    height: 52px;
+    float: none;
+    font-size: xx-large;
+}
+.label2 {
+    margin: 0px 255px 0px 255px;
+    height: 74px;
+    padding: 17px;
+    font-size: 27px;
+    
+}
 
 select {
     height: 30px;
     width: 250px;
 }
-
+#dropdown {
+    padding: auto;
+    margin: 3px 10px 15px 10px
+    
+}
 input[type="submit"] {
     width: 300px;
     height: 50px;
@@ -167,18 +194,24 @@ input[type="submit"] {
     background-color: rgb(93, 172, 103);
     font-size: large;
     font-weight: bold;
+    margin: 3px 140px 15px 140px
     
 }
 
 input[type="text"] {
-    margin: 3px 0px 15px 0px;
-    
+    font-size: x-large;
+    height: 55px;
+    margin: 3px 260px 15px 260px
 }
 input[type="email"] {
-    margin: 3px 0px 15px 0px;
+    font-size: x-large;
+    height: 55px;
+    margin: 3px 260px 15px 260px
 }
 input[type="number"] {
-    margin: 3px 0px 15px 0px;
+    height: 55px;
+    margin: 3px 260px 15px 260px  
+
 }
 
 .p2 {
@@ -186,18 +219,24 @@ input[type="number"] {
 }
 
 .p3 {
-    margin: 15px 0px 3px 0px;
+    margin: 0px 275px 0px 275px;
     border: 40px;
+    font-size: x-large;
+    height:22px;
+    padding: 7px;
 }
 
 .p4 {
-    margin: 15px 0px 3px 0px;
-    height: 30px;
+    margin: 0px 295px 0px 295px;
+    height: 80px;
+    font-size: x-large;
 }
 
 textarea {
+    font-size: xx-large;
     width: 350px;
-    height: 150px;
+    height: 130px;
+    padding: 0px 15px 0px 15px;
 }
 
 input[type="radio"] {
@@ -205,17 +244,39 @@ input[type="radio"] {
 
   }
 
-  .radio {
+  /* .radio {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-  }
-
-.checkbox {
-    height: 20px;
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
+  } */
+.radio1 {
+   display: inline-block;
+}
+.yes {
+    text-align: left;
+    margin: 0px 5px 0px 5px;
+    padding: 0px 0px 1px 0px;
+}
+.radio2 {
+    display: inline-block;
+ }
+ .no {
+     text-align: left;
+ }
+.checkbox1 {
+    position: relative;
+    margin-left: -120px;
+}
+.rw {
+    position: relative;
+    padding-left: 220px;
+}
+.checkbox2 {
+    position: relative;
+}
+.wa {
+    margin: 0px 5px 30px 85px;
+    padding: 0px 15px 30px 60px
 }
 /* Icons */
 
